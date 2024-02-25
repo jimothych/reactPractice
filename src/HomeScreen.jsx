@@ -3,11 +3,14 @@ import ProgressTab from './components/ProgressTab.jsx'
 import GradesTab from './components/GradesTab.jsx';
 
 function HomeScreen() {
+
     return(
         <>
-            <StudentDashboard/>
-            <GradesTab/>
-            <ProgressTab/>
+            <div>
+                <StudentDashboard/>
+                <GradesTab/>
+                <ProgressTab/>
+            </div>
         </>
     );
 }

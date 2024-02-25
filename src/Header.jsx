@@ -1,6 +1,12 @@
+import './Header.css'
+import logo from './assets/tuba_nobg.png'
+
 function Header() {
+
     return(
-        <div>HELLO WORLD</div>
+        <header>
+            <img src={logo}/>
+        </header>
     );
 }
 

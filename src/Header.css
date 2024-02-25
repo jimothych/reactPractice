@@ -1,0 +1,8 @@
+header {
+    background-image: linear-gradient(to right, aliceblue , azure);
+}
+
+header img{
+    display: flex;
+    justify-content: flex-start;
+}
